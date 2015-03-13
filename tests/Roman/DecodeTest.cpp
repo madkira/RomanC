@@ -129,3 +129,13 @@ TEST(Roman, Decode_CDXLVIII)
 }
 
 
+TEST(Roman, Decode_MCMXCVIII)
+{
+  CHECK_EQUAL(1998, roman_decode("MCMXCVIII"));
+}
+
+
+TEST(Roman, Decode_MMDCCLI)
+{
+  CHECK_EQUAL(2751, roman_decode("MMDCCLI"));
+}

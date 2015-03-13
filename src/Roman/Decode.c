@@ -3,26 +3,14 @@
 int roman_caractere(char in){
 	int valeur = 0;
 
-/*	switch ((int)in) {
-	case 73: return valeur + 1; //I
-	case 86: return valeur + 5; //V
-	case 88: return valeur + 10; //X
-	case 76: return valeur + 50; //L
-	case 67: return valeur + 100; //C
-	case 68: return valeur + 500; //D
-	case 77: return valeur + 1000; //M
-	default : return -1;
-	}
-*/
-
 	switch (in) {
-	case 'I': return valeur + 1; //I
-	case 'V': return valeur + 5; //V
-	case 'X': return valeur + 10; //X
-	case 'L': return valeur + 50; //L
-	case 'C': return valeur + 100; //C
-	case 'D': return valeur + 500; //D
-	case 'M': return valeur + 1000; //M
+	case 'I': return valeur + 1;
+	case 'V': return valeur + 5; 
+	case 'X': return valeur + 10; 
+	case 'L': return valeur + 50; 
+	case 'C': return valeur + 100; 
+	case 'D': return valeur + 500; 
+	case 'M': return valeur + 1000;
 	default : return -1;
 	}
 
